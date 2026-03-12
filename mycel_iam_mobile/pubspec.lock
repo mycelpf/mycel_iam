@@ -267,9 +267,11 @@ packages:
   mycel_core_mobile:
     dependency: "direct main"
     description:
-      path: "../../mycel_core/mycel_core_mobile"
-      relative: true
-    source: path
+      path: mycel_core_mobile
+      ref: "v0.1.0"
+      resolved-ref: "127b9da65fcbff256ffc21febcd077edecc7dd52"
+      url: "https://github.com/mycelpf/mycel_core.git"
+    source: git
     version: "0.1.0"
   native_toolchain_c:
     dependency: transitive
