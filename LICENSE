@@ -1,0 +1,154 @@
+# MYCEL PROPRIETARY SOFTWARE LICENSE
+
+Version 1.0
+
+Copyright (c) 2024–2026  
+Ashutosh Sharma and Ritvik Sharma  
+All Rights Reserved.
+
+---
+
+## 1. OWNERSHIP
+
+The Mycel platform and all associated modules, including but not limited to:
+
+- source code  
+- compiled binaries  
+- container images containing the Software  
+- documentation  
+- architecture and design  
+- modules distributed under the `mycel_*` naming convention as part of the Mycel platform  
+
+(collectively referred to as the **Software**) are the original works of authorship of:
+
+Ashutosh Sharma  
+Ritvik Sharma  
+
+All intellectual property rights in the Software remain exclusively with the Authors.
+
+No ownership rights are transferred under this license.
+
+---
+
+## 2. DISTRIBUTION AUTHORIZATION
+
+The Authors grant **CogniWorks Pvt. Ltd.** a perpetual, worldwide, non-exclusive license to:
+
+- build the Software  
+- distribute the Software  
+- publish container images and binaries  
+- sublicense runtime and deployment rights for the Software  
+- commercialize and deploy the Software  
+
+CogniWorks Pvt. Ltd. may distribute the Software through:
+
+- software repositories  
+- container registries  
+- commercial agreements  
+- customer deployments  
+
+---
+
+## 3. RUNTIME LICENSE
+
+Any organization receiving the Software through **CogniWorks Pvt. Ltd.** or its authorized distribution channels is granted a limited, non-exclusive, non-transferable license to:
+
+- execute the Software  
+- deploy and operate the Software as part of its internal business applications  
+- build container images that extend the official Mycel platform container images for the purpose of operating those applications  
+
+The Software may be deployed within infrastructure owned or controlled by the organization, including environments hosted in public or private cloud providers, provided that the deployment is operated solely for the organization’s internal business use.
+
+This license permits use of the Software only as part of a specific application or system operated by the organization and does not grant rights to reuse the Software as a general-purpose platform across multiple independent software projects or for use by multiple unrelated client organizations.
+
+---
+
+## 4. EXTENDED OR COMMERCIAL USE
+
+A separate written agreement with **CogniWorks Pvt. Ltd.** is required for:
+
+- modifying or extending the Mycel platform itself  
+- redistributing the Mycel platform or its container images  
+- using the Mycel platform as a reusable framework across multiple independent software projects or for multiple client organizations  
+- offering the Mycel platform as a hosted, managed, or software-as-a-service offering to third parties  
+
+---
+
+## 5. CONDITIONS FOR DERIVED CONTAINER IMAGES
+
+Licensees may build container images that extend official Mycel platform container images, provided that:
+
+- the Software itself is not altered or modified  
+- the Software is not extracted or redistributed independently  
+- resulting images are used only for internal deployment  
+
+---
+
+## 6. RESTRICTIONS
+
+Unless explicitly authorized by **CogniWorks Pvt. Ltd.** or the Authors, no person or organization may:
+
+- copy or redistribute the Software outside the authorized distribution channels established by CogniWorks Pvt. Ltd.  
+- modify the Software or create derivative works of the Mycel platform itself, except for permitted derived container images described in Section 5  
+- reverse engineer, decompile, or disassemble the Software  
+- extract, analyze, or reuse platform components from container images outside the intended runtime execution environment  
+- publish or distribute modified versions of the Software or container images containing the Software under a different repository, registry, or name  
+- provide the Software as a hosted or SaaS platform
+
+### Container Image Redistribution
+
+Licensees may not publish, distribute, or make available container images containing the Software through any public or private container registry, repository, or distribution channel other than those authorized by CogniWorks Pvt. Ltd.
+
+This restriction applies regardless of whether the Software is modified, repackaged, or included as part of another container image.
+
+---
+
+## 7. CONFIDENTIALITY
+
+The Software and its internal design may contain proprietary information and trade secrets of the Authors.
+
+Licensees must take reasonable steps to prevent unauthorized disclosure or distribution.
+
+---
+
+## 8. TERMINATION
+
+This license terminates automatically upon any breach of its terms.
+
+Upon termination, the Licensee must immediately cease all use of the Software and destroy all copies in their possession.
+
+Sections **1, 4, 6, 7, 9, 10, 11, and 12** survive termination.
+
+---
+
+## 9. AUDIT RIGHTS
+
+CogniWorks Pvt. Ltd. and the Authors may request reasonable information necessary to verify compliance with this license.
+
+---
+
+## 10. WARRANTY DISCLAIMER
+
+THE SOFTWARE IS PROVIDED “AS IS” WITHOUT WARRANTY OF ANY KIND.
+
+---
+
+## 11. LIMITATION OF LIABILITY
+
+IN NO EVENT SHALL THE AUTHORS OR COGNIWORKS PVT. LTD. BE LIABLE FOR ANY INDIRECT OR CONSEQUENTIAL DAMAGES ARISING FROM USE OF THE SOFTWARE.
+
+---
+
+## 12. GOVERNING LAW
+
+This license shall be governed by the laws of India.
+
+---
+
+## 13. CONTACT
+
+Licensing inquiries:
+
+CogniWorks Pvt. Ltd.  
+https://cogniworks.io  
+cogniworkstech@gmail.com
