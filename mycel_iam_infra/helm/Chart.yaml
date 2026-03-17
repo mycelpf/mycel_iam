@@ -1,0 +1,6 @@
+apiVersion: v2
+name: mycel-iam
+description: Mycel IAM — Identity and Access Management
+type: application
+version: 0.1.0
+appVersion: "0.1.0"

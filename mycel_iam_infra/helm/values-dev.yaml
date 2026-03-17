@@ -1,0 +1,13 @@
+# mycel_iam/infra/helm/values-dev.yaml — does NOT ship
+image:
+  pullPolicy: Never
+
+config:
+  LOG_LEVEL: debug
+
+artifacts:
+  web:
+    # vite preview (not vite dev): HMR does not work behind Traefik ingress
+    # without clientPort/host config. Use `npm run dev` locally for HMR.
+    # inject-config.sh writes /config.json from runtime env vars before serving.
+    command: ["/bin/sh", "-c", "/usr/local/bin/inject-config.sh && npx vite preview --host --port 3002"]
