@@ -9,5 +9,8 @@ DO $$ BEGIN
   END IF;
 END $$;
 
+-- Ensure password is always up-to-date (handles pre-existing user with stale password)
+ALTER ROLE mycel_iam_db_user WITH PASSWORD 'iam_dev_password';
+
 -- Grant owner role (full access to own schema)
 GRANT mycel_iam_role TO mycel_iam_db_user;
